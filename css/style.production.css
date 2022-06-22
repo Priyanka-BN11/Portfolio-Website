@@ -2,7 +2,7 @@
 $a_active_color:#489c79;
 $a_visited_color:#4B0082;*/
 :root {
-  --a_color: 0000CD;
+  --a_color: #0000CD;
   --a_active_color: #489c79;
   --a_visited_color: #4B0082;
 }
@@ -119,8 +119,9 @@ a:visited{
   grid-row-end: 3;
   }
 
-%grid_shared{
-   .grid {
+@media all and (max-width: 800px){
+  /* shared code */
+  .grid {
    
     grid-gap: 10px;
   }
@@ -131,11 +132,6 @@ a:visited{
   h1 {
     font-size: 22px;
 }
-  
-}
-@media all and (max-width: 800px){
-  /* shared code */
- @export %grid_shared;
 
 }
 
@@ -145,7 +141,16 @@ a:visited{
   }
 }
 @media all and (max-width: 800px) {
-  @export %grid_shared;
+  .grid {
+    grid-gap: 10px;
+  }
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  h1 {
+    font-size: 22px;
+  }
 }
 @media all and (max-width: 500px) {
   .grid {
