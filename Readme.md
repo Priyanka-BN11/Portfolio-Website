@@ -1,16 +1,16 @@
-#Project Title 
+Project Title 
 -----------------------------------------------------------------------------------------------
 Portfolio Website
 
-##Objective
+Objective
 -----------------------------------------------------------------------------------------------
 The portfolio website of Priyanka Bangalore Nagaraja describes the progress, interests, skill, views and passion.
 
-##Technologies
+Technologies
 -----------------------------------------------------------------------------------------------
 Html5, CSS3 and Sass
 
-##Project deployed link
+Project deployed link
 -----------------------------------------------------------------------------------------------
 https://github.com/Priyanka-BN11/Portfolio-Website
 
